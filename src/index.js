@@ -1,8 +1,8 @@
 import dotenv from "dotenv";
-import messagesWithRules from "./messagesWithRules";
+import messagesWithRules from "./db/messagesWithRules";
 import telegramMessageHandler from "./services/telegramMessageHandler";
 import TelegramBot from "node-telegram-bot-api";
-import stickersWithRules from "./stickersWithRules";
+import stickersWithRules from "./db/stickersWithRules";
 import _ from "lodash";
 
 dotenv.config();
