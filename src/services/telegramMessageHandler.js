@@ -13,7 +13,7 @@ const telegramMessageHandler = (bot) => {
       const chatId = msg.chat.id;
 
       bot.sendMessage(chatId, message);
-  });
+    });
   };
 
   return {
