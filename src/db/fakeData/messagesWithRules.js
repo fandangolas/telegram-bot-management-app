@@ -1,10 +1,10 @@
 const messagesWithRules = {
-  mamou1: {
+  message1: {
     rule: /^.*\b(mamou)\b.*$/,
     message: 'mamaste???'
   },
 
-  mamou2: {
+  message2: {
     rule: /^.*\b(MAMOU)\b.*$/,
     message: 'MAMASTE???'
   }
